@@ -6,5 +6,8 @@ This Container can be used as base-image for other project, or to compile linux 
 ### Usage
 Run docker in your sourcecode-directory like this:
 ```
-docker run -ti --rm -v $(pwd):/source nold360/switch_linux_toolchain bash
+docker run -ti --rm -v $(pwd):/source cmsj/switch_linux_toolchain bash
 ```
+
+### Credits
+This is based on excellent work by @Nold360
