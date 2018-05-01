@@ -4,6 +4,7 @@ FROM ubuntu:18.04
 # Software requirements
 RUN apt-get update && \
     apt-get -yq --no-install-recommends install \
+    unzip \
     build-essential \
     libssl-dev \
     swig \
