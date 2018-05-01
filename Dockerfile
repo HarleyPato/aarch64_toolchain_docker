@@ -23,7 +23,9 @@ RUN apt-get update && \
     ca-certificates \
     wget \
     gcc-7-aarch64-linux-gnu \
-    gcc-7-arm-linux-gnueabi && \
+    gcc-7-arm-linux-gnueabi \
+    debootstrap \
+    qemu-user-static && \
     apt-get clean
 
 COPY brcmfmac4356-pcie.txt /lib/firmware/brcm/brcmfmac4356-pcie.txt
