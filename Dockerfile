@@ -23,6 +23,7 @@ RUN apt-get update && \
     pkg-config \
     ca-certificates \
     wget \
+    moreutils \
     gcc-7-aarch64-linux-gnu \
     gcc-aarch64-linux-gnu \
     gcc-7-arm-linux-gnueabi \
