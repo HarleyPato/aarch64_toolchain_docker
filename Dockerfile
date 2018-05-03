@@ -29,6 +29,7 @@ RUN apt-get update && \
     gcc-7-arm-linux-gnueabi \
     gcc-arm-linux-gnueabi \
     debootstrap \
+    binfmt-support \
     qemu-user-static && \
     apt-get clean
 
