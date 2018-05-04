@@ -30,6 +30,7 @@ RUN apt-get update && \
     gcc-arm-linux-gnueabi \
     debootstrap \
     binfmt-support \
+    dosfstools \
     qemu-user-static && \
     apt-get clean
 
